@@ -1,0 +1,103 @@
+body {
+	font-family: 'Josefin Slab', serif;
+	font-size: 18px;
+}
+#navName {
+	display: inline-block;
+	height: 50px;
+	margin: 0px 0px 0px 35%;
+	padding: 4px 0px 0px 0px;
+}
+#navNameSpan {
+	font-size: 18px;
+}
+#left_side {
+	height: 630px;
+}
+.backVid {
+    position: fixed;
+}
+.aboutDiv {
+    margin-top: 50px;
+}
+@media (min-width: 768px) {
+    .aboutImg {
+        display: none;
+    }
+    #aboutP {
+        width: 150%;
+        margin-top: 60px;
+    }
+    #aboutName, #aboutNameDisc {
+    	display: none;
+    }
+}
+@media (max-width: 767px) {
+    #left_side {
+        display: none;
+    }
+}
+@media (max-width: 730px) {
+	#navName {
+		margin-left: 0px;
+	}
+}
+@media (min-width: 1141px) {
+	#aboutP {
+		margin-top: 10px;
+	}
+}
+.col-xs-12 {
+    height: auto;
+}
+
+.col-sm-4 {
+    height: auto;
+}
+
+.col-sm-8 {
+    background-color: white;
+    height: auto;
+}
+#mobilePic {
+    margin: 0 0 0 0;
+    width: 250px;
+    border-radius: 8px;
+
+}
+.projImg {
+	height: 150px;
+	border-radius: 8px;
+	vertical-align: top;
+}
+.aboutProjectP {
+	display: inline-block;
+	width: 76%;
+	font-size: 18px;
+}
+.aboutProjectSpan {
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+}
+.chatboxDiv {
+	padding-top: 10px;
+}
+.footer {
+	margin-bottom: 49px;
+	background-color: black;
+}
+.footerBack {
+	background-color: black;
+}
+.footerIcon {
+	height: 40px;
+	width: 40px;
+	margin: 6px 0px 0px 10%;
+}
+.copyright {
+	color: white;
+	display: inline-block;
+	margin-left: 10%;
+	font-size: 14px;
+}
